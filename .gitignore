@@ -1,0 +1,24 @@
+# Ignore temporary files created by Word/Office
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore VSCode/IDE config folders
+.vscode/
+.idea/
+
+# Ignore compiled binaries (nếu sau này có build)
+*.exe
+*.o
+*.out
